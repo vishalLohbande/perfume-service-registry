@@ -12,6 +12,8 @@ public class ServiceRegistryApplication {
 
 		SpringApplication.run(ServiceRegistryApplication.class, args);
 		System.out.println("Service registry started on port:8761....");
+		System.out.println("Service registry is now healthy...");
+
 	}
 
 }
